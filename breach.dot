@@ -25,5 +25,4 @@ digraph breach {
   sedition -> dictionary [label="No it isn't"]
   victor [shape=rectangle label="Sure, our nation was built upon sedition.\nBut that doesn't mean he didn't break the law.\n#pence46"]
   sedition -> victor [label="So what?"]
-
 }
