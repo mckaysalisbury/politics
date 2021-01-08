@@ -23,7 +23,7 @@ digraph breach {
   incite -> sedition [label=y]
   dictionary [shape=rectangle label="Yes it is" fontcolor=blue href="https://www.dictionary.com/browse/sedition"]
   sedition -> dictionary [label="No it isn't"]
-  victor [shape=rectangle label="Sure, our nation was built upon sedition.\nBut that doesn't mean he didn't break the law.\n#pence46" fontcolor=blue href="https://www.foxnews.com/politics/congress-certifies-bidens-electoral-college-victory-after-day-of-chaos-at-capitol"]
+  victor [shape=rectangle label="Sure, our nation was built upon sedition.\nBut that doesn't mean he didn't break the law.\n#pence46"]
   sedition -> victor [label="So what?"]
 
 }
