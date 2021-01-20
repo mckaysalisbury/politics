@@ -1,6 +1,6 @@
 digraph speech {
   node [shape=diamond]
-  websiteBias [label="Is a website allowed to be biased?"]
+  websiteBias [label="Is my personal website allowed to be biased?"]
   websiteBias -> websiteSpeech1 [label="y"]
   websiteSpeech1,websiteSpeech2 [label="This is because a website has free speech.\nThey can control the speech on their website." shape="rectangle"]
   websiteSpeech1 -> yell
