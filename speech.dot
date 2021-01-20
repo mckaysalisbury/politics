@@ -27,7 +27,7 @@ digraph speech {
   websiteBias, yell, square -> whatIsFreeSpeech [label="n"]
   whatIsFreeSpeech [label="If not this,\nWhat constitutes free speech in your mind?" shape=rectangle]
   
-  websiteEnforce -> 230 [label="230"]
+  websiteEnforce -> 230 [label="Only because of Section 230"]
   230 [label="How does Section 230 help them?\nI think you misunderstand Section 230.\nIf you disagree, then (again), please help me understand your perspective." shape=rectangle fontcolor=blue href="https://www.techdirt.com/articles/20200531/23325444617/hello-youve-been-referred-here-because-youre-wrong-about-section-230-communications-decency-act.shtml"]
 
 
