@@ -13,13 +13,13 @@ digraph speech {
   mallSpeech [label="This is because malls have freedom of speech.\nThey can control the speech in their establishment." shape=rectangle]
   mallSpeech -> websiteEnforce
 
-  websiteEnforce [label="Can a website enforce its bias by\ndeleting comments it doesn't like."]
+  websiteEnforce [label="Can a website enforce its bias by\ndeleting comments it doesn't like?"]
   websiteEnforce -> websiteSpeech2 [label="y"]
   websiteEnforce -> difference [label="n"]
 
 
   mall -> church [label="n"]
-  church [label="What about a church?\nIs a church allowed to kick people out\nwho are protesting its beliefs with picket signs?"]
+  church [label="What about a church?\nIs a church allowed to kick people out (to the sidewalk)\nwho are protesting its beliefs with picket signs?"]
   church -> difference [label="y"]
   church -> whatIsFreeSpeech [label="n"]
   difference [label="What's the difference?\nSeriously, I want to understand your distinction." shape="rectangle" href="https://blog.mckaysalisbury.com/2021/01/freedom-of-speech.html" target="_blank"]
