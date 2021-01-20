@@ -5,9 +5,9 @@ digraph speech {
   websiteSpeech1,websiteSpeech2 [label="This is because a website has free speech.\nThey can control the speech on their website." shape="rectangle"]
   websiteSpeech1 -> yell
   yell [label="Is yelling free speech?"]
-  yell -> park [label="n"]
-  park [label="Is yelling in a public\npark at noon allowed?"]
-  park -> mall [label="y"]
+  yell -> square [label="n"]
+  square [label="Is yelling in a public\nsquare at noon allowed?"]
+  square -> mall [label="y"]
   mall [label="Is a mall allowed to kick you\nout of the mall for yelling?"]
   mall -> mallSpeech [label="y"]
   mallSpeech [label="This is because malls have freedom of speech.\nThey can control the speech in their establishment." shape=rectangle]
@@ -24,7 +24,7 @@ digraph speech {
   church -> whatIsFreeSpeech [label="y"]
   difference [label="What's the difference?\nSeriously, I want to understand your distinction." shape="rectangle" href="https://blog.mckaysalisbury.com/"]
 
-  websiteBias, yell, park -> whatIsFreeSpeech [label="n"]
+  websiteBias, yell, square -> whatIsFreeSpeech [label="n"]
   whatIsFreeSpeech [label="If not this,\nWhat constitutes free speech in your mind?" shape=rectangle]
   
   websiteEnforce -> 230 [label="230"]
