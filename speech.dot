@@ -2,7 +2,7 @@ digraph speech {
   node [shape=diamond]
   websiteBias [label="Is a website allowed to be biased?"]
   websiteBias -> websiteSpeech1 [label="y"]
-  websiteSpeech1,websiteSpeech2 [label="This is because a website has free speech.\nThey can control the speech on their website" shape="rectangle"]
+  websiteSpeech1,websiteSpeech2 [label="This is because a website has free speech.\nThey can control the speech on their website." shape="rectangle"]
   websiteSpeech1 -> yell
   yell [label="Is yelling free speech?"]
   yell -> park [label="n"]
@@ -10,7 +10,7 @@ digraph speech {
   park -> mall [label="y"]
   mall [label="Is a mall allowed to kick you\nout of the mall for yelling?"]
   mall -> mallSpeech [label="y"]
-  mallSpeech [label="This is because malls have freedom of speech.\nThey can control the speech in their establishment" shape=rectangle]
+  mallSpeech [label="This is because malls have freedom of speech.\nThey can control the speech in their establishment." shape=rectangle]
   mallSpeech -> websiteEnforce
 
   websiteEnforce [label="Can a website enforce its bias by\ndeleting comments it doesn't like."]
@@ -28,7 +28,7 @@ digraph speech {
   whatIsFreeSpeech [label="If not this,\nWhat constitutes free speech in your mind?" shape=rectangle]
   
   websiteEnforce -> 230 [label="230"]
-  230 [label="How does Section 230 help them?" shape=rectangle]
+  230 [label="How does Section 230 help them?\nI think you misunderstand Section 230.\nIf you disagree, then (again), please help me understand your perspective." shape=rectangle href="https://www.techdirt.com/articles/20200531/23325444617/hello-youve-been-referred-here-because-youre-wrong-about-section-230-communications-decency-act.shtml"]
 
 
 
