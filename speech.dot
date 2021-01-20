@@ -5,7 +5,7 @@ digraph speech {
   websiteSpeech1,websiteSpeech2 [label="This is because a website has free speech.\nThey can control the speech on their website." shape="rectangle"]
   websiteSpeech1 -> yell
   yell [label="Is yelling free speech?"]
-  yell -> square [label="n"]
+  yell -> square [label="y"]
   square [label="Is yelling in a public\nsquare at noon allowed?"]
   square -> mall [label="y"]
   mall [label="Is a mall allowed to kick you\nout of the mall for yelling?"]
