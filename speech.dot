@@ -21,7 +21,7 @@ digraph speech {
   mall -> church [label="n"]
   church [label="What about a church?\nIs a church allowed to kick people out\nwho are protesting its beliefs with picket signs?"]
   church -> difference [label="y"]
-  church -> whatIsFreeSpeech [label="y"]
+  church -> whatIsFreeSpeech [label="n"]
   difference [label="What's the difference?\nSeriously, I want to understand your distinction." shape="rectangle" href="https://blog.mckaysalisbury.com/2021/01/freedom-of-speech.html" target="_blank"]
 
   websiteBias, yell, square -> whatIsFreeSpeech [label="n"]
