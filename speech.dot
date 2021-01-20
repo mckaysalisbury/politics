@@ -1,0 +1,37 @@
+digraph speech {
+  node [shape=diamond]
+  websiteBias [label="Is a website allowed to be biased?"]
+  websiteBias -> websiteSpeech1 [label="y"]
+  websiteSpeech1,websiteSpeech2 [label="This is because a website has free speech.\nThey can control the speech on their website" shape="rectangle"]
+  websiteSpeech1 -> yell
+  yell [label="Is yelling free speech?"]
+  yell -> park [label="n"]
+  park [label="Is yelling in a public\npark at noon allowed?"]
+  park -> mall [label="y"]
+  mall [label="Is a mall allowed to kick you\nout of the mall for yelling?"]
+  mall -> mallSpeech [label="y"]
+  mallSpeech [label="This is because malls have freedom of speech.\nThey can control the speech in their establishment" shape=rectangle]
+  mallSpeech -> websiteEnforce
+
+  websiteEnforce [label="Can a website enforce its bias by\ndeleting comments it doesn't like."]
+  websiteEnforce -> websiteSpeech2 [label="y"]
+  websiteEnforce -> difference [label="n"]
+
+
+  mall -> church [label="n"]
+  church [label="What about a church?\nIs a church allowed to kick people out\nwho are protesting its beliefs with picket signs?"]
+  church -> difference [label="y"]
+  church -> whatIsFreeSpeech [label="y"]
+  difference [label="What's the difference?\nSeriously, I want to understand your distinction." shape="rectangle" href="https://blog.mckaysalisbury.com/"]
+
+  websiteBias, yell, park -> whatIsFreeSpeech [label="n"]
+  whatIsFreeSpeech [label="If not this,\nWhat constitutes free speech in your mind?" shape=rectangle]
+  
+  websiteEnforce -> 230 [label="230"]
+  230 [label="How does Section 230 help them?" shape=rectangle]
+
+
+
+  # home [label="Am I able to control the content that enters my home?"]
+
+}
